@@ -126,6 +126,12 @@ section{
    background-position: center;
 }
 
+.home-bgpeaton{
+   background:linear-gradient(90deg, var(--white), transparent 70%), url(../imagenes/peatonp.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
 
 .home-bg .home{
    min-height: 70rem;
@@ -139,12 +145,23 @@ section{
    align-items: center;
 }
 
+.home-bgpeaton .home{
+   min-height: 70rem;
+   display: flex;
+   align-items: center;
+}
+
 .home-bg .home .content{
    width: 50rem;
    text-align: center;
 }
 
 .home-bgmoto .home .content{
+   width: 50rem;
+   text-align: center;
+}
+
+.home-bgpeaton .home .content{
    width: 50rem;
    text-align: center;
 }
@@ -161,6 +178,13 @@ section{
    font-family: 'Merienda One', cursive;
 }
 
+
+.home-bgpeaton .home .content h3{
+   font-size: 6rem;
+   color:var(--black);
+   font-family: 'Merienda One', cursive;
+}
+
 .home-bg .home .content p{
    padding:1rem 0;
    font-size: 1.6rem;
@@ -170,6 +194,13 @@ section{
 
 
 .home-bgmoto .home .content p{
+   padding:1rem 0;
+   font-size: 1.6rem;
+   color:var(--black);
+   line-height: 2;
+} 
+
+.home-bgpeaton .home .content p{
    padding:1rem 0;
    font-size: 1.6rem;
    color:var(--black);
@@ -437,6 +468,10 @@ section{
       background-position: left;
    }
 
+   .home-bgpeaton{
+      background-position: left;
+   }
+
    .home-bg .home{
       justify-content: center;
    }
@@ -445,11 +480,19 @@ section{
       justify-content: center;
    }
 
+   .home-bgpeaton .home{
+      justify-content: center;
+   }
+
    .home-bg .home .content h3{
       font-size: 4rem;
    }
 
    .home-bgmoto .home .content h3{
+      font-size: 4rem;
+   }
+
+   .home-bgpeaton .home .content h3{
       font-size: 4rem;
    }
 
