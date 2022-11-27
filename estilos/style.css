@@ -132,6 +132,19 @@ section{
    background-position: center;
 }
 
+.home-bgconductor{
+   background:linear-gradient(90deg, var(--white), transparent 70%), url(../imagenes/conductorp.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.home-bgciclista{
+   background:linear-gradient(90deg, var(--white), transparent 70%), url(../imagenes/ciclistap.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
 
 .home-bg .home{
    min-height: 70rem;
@@ -146,6 +159,18 @@ section{
 }
 
 .home-bgpeaton .home{
+   min-height: 70rem;
+   display: flex;
+   align-items: center;
+}
+
+.home-bgconductor .home{
+   min-height: 70rem;
+   display: flex;
+   align-items: center;
+}
+
+.home-bgciclista .home{
    min-height: 70rem;
    display: flex;
    align-items: center;
@@ -166,6 +191,17 @@ section{
    text-align: center;
 }
 
+.home-bgconductor .home .content{
+   width: 50rem;
+   text-align: center;
+}
+
+.home-bgciclista .home .content{
+   width: 50rem;
+   text-align: center;
+}
+
+
 .home-bg .home .content h3{
    font-size: 6rem;
    color:var(--black);
@@ -185,6 +221,19 @@ section{
    font-family: 'Merienda One', cursive;
 }
 
+.home-bgconductor .home .content h3{
+   font-size: 6rem;
+   color:var(--black);
+   font-family: 'Merienda One', cursive;
+}
+
+.home-bgciclista .home .content h3{
+   font-size: 6rem;
+   color:var(--black);
+   font-family: 'Merienda One', cursive;
+}
+
+
 .home-bg .home .content p{
    padding:1rem 0;
    font-size: 1.6rem;
@@ -201,6 +250,20 @@ section{
 } 
 
 .home-bgpeaton .home .content p{
+   padding:1rem 0;
+   font-size: 1.6rem;
+   color:var(--black);
+   line-height: 2;
+} 
+
+.home-bgconductor .home .content p{
+   padding:1rem 0;
+   font-size: 1.6rem;
+   color:var(--black);
+   line-height: 2;
+} 
+
+.home-bgciclista .home .content p{
    padding:1rem 0;
    font-size: 1.6rem;
    color:var(--black);
@@ -472,6 +535,14 @@ section{
       background-position: left;
    }
 
+   .home-bgconductor{
+      background-position: left;
+   }
+
+    .home-bgciclista{
+      background-position: left;
+   }
+
    .home-bg .home{
       justify-content: center;
    }
@@ -484,6 +555,14 @@ section{
       justify-content: center;
    }
 
+   .home-bgconductor .home{
+      justify-content: center;
+   }
+
+   .home-bgciclista .home{
+      justify-content: center;
+   }
+
    .home-bg .home .content h3{
       font-size: 4rem;
    }
@@ -493,6 +572,14 @@ section{
    }
 
    .home-bgpeaton .home .content h3{
+      font-size: 4rem;
+   }
+
+   .home-bgconductor .home .content h3{
+      font-size: 4rem;
+   }
+
+   .home-bgciclista .home .content h3{
       font-size: 4rem;
    }
 
